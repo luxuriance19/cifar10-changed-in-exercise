@@ -11,3 +11,8 @@ Code in this directory demonstrates how to use TensorFlow to train and evaluate 
 Detailed instructions on how to get started available at:
 
 http://tensorflow.org/tutorials/deep_cnn/
+
+changed in cifar1.py
+local3 and local4 from fully-connected to locally-connected
+
+output is changed to probability using tf.nn.softmax
